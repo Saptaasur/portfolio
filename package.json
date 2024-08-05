@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://saptarshi.github.io/portfolio",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Saptarshi",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^6.1.1",
+    "node-sass": "^9.0.0",
+    "sass": "^1.77.6",
+    "semver": "^7.6.2"
+  }
+}
